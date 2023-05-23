@@ -1,0 +1,15 @@
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjQzLXBmLTItdGVkZHktMDE2LmpwZw.jpg");
+    background-size: cover;
+}
+#carouselExampleFade img{
+    height: 60vh;
+    width: 900PX !important;
+    border: 10px solid white;
+}
+

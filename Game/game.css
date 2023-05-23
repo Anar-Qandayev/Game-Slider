@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#game-zone{
+    background-image: url("https://mcdn.wallpapersafari.com/medium/66/44/zldaLS.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.game-zone{
+    margin-right: 50px;
+    border: 3px solid red;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.game-zone img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top:0;
+    left: 0;
+}
+.fa-solid{
+    color: yellow;
+    position: absolute;
+    top:100px;
+    left: 100px;
+    font-size: 3.125rem;
+}
+.count{
+    font-size: 22px;
+    margin: 20px 80px 20px 20px;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+}
